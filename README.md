@@ -5,7 +5,7 @@ demo ef code for .Net framework apps
 
 before running code:
 
-1. Go to Tools > Nuget Package Manager > Package Manage Console    *you will see a message saying you need to restore packages, click the Restore button
+1. After you’ve opened the solution in Visual Studio,  Go to Tools > Nuget Package Manager > Package Manage Console    *you will see a message saying you need to restore packages, click the Restore button
 2. at the PM> prompt type "update-database" and press Enter, when done you'll see an empty PM> prompt
 3. Close Package Manager Console
 4. Build the project
