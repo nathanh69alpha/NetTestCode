@@ -17,7 +17,9 @@ namespace EF6Demo
         protected void Page_Load(object sender, EventArgs e)
         {
             //you can comment this out after you run the code the first time
-            SeedDb();
+            //SeedDb();
+
+
         }
 
 

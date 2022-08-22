@@ -25,12 +25,14 @@ namespace EF6Demo
             foreach (var item in list)
             {
                 sb.Append("<tr><td >" + item.StudentID + "</td><td >" + item.StudentName + "</td><td >" + item.DepartmentName + "</td>");
-                var t = "<a href=../EditStudent.aspx?id=" + item.StudentID + ">Edit</a>";
+                //var t = "<a href=../EditStudent.aspx?id=" + item.StudentID + ">Edit</a>";
                 sb.Append("<td><a class='btn btn-primary btn-sm' href=../EditStudent.aspx?id=" + item.StudentID + ">Edit</a></td>");
                 sb.Append("</tr>");
             }
             sb.Append("</tbody></table>");
             ltlTableDisplay.Text = sb.ToString();
         }
+
+        
     }
 }

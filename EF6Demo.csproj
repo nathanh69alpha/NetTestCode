@@ -117,6 +117,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CreateStudentNHVersion.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="EditStudent.aspx" />
     <Content Include="EditTeacher.aspx" />
@@ -183,6 +184,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateStudentNHVersion.aspx.cs">
+      <DependentUpon>CreateStudentNHVersion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateStudentNHVersion.aspx.designer.cs">
+      <DependentUpon>CreateStudentNHVersion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Data\SchoolContext.cs" />
     <Compile Include="Default.aspx.cs">
